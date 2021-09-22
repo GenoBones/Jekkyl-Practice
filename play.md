@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Work
+title: Play
 ---
-# Work page
+# Play Page
 
 Is this page working?

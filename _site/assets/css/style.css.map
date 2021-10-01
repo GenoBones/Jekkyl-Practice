@@ -3,12 +3,14 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"_sass/main.scss"
+		"_sass/main.scss",
+		"_sass/navigation.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		".current {\r\n    color: green;\r\n  }"
+		"@import \"main\";\n@import \"navigation\";",
+		".current {\r\n    color: rgb(182, 0, 24);\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n  }\r\n",
+		"nav {\r\n    display: flex;\r\n    justify-content: center;\r\n  }\r\n\r\n.nav-element {\r\n    padding: 10px;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,OAAe,EACtB,YAAY,EAAE,IAAI,EAClB,aAAa,EAAE,IAAI,GACpB;;ACJH,AAAA,GAAG,CAAC,EACA,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,GACxB;;AAEH,AAAA,YAAY,CAAC,EACT,OAAO,EAAE,IAAI,GAChB"
 }

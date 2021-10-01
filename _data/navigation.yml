@@ -1,10 +1,10 @@
-- name: Home
+- name: HOME
   link: /
-- name: About
+- name: ABOUT
   link: /about.html
-- name: Play
-  link: /play.html
-- name: Blog
+- name: PROJECTS
+  link: /projects.html
+- name: BLOG
   link: /blog.html
-- name: Staff
+- name: STAFF
   link: /staff.html

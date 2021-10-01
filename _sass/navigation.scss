@@ -1,6 +1,14 @@
+.current {
+    color: rgb(182, 0, 24);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
 nav {
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
 .nav-element {
